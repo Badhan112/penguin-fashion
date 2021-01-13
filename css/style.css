@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2{
+    font-family: 'Bebas Neue', cursive;
+}
+h1, h2, h4{
+    color: #363958;
+}
+.highlight{
+    color: #FABE4C;
+}
+.grey-background{
+    background-color: #F1F1F1;
+}
+p{
+    color: #3E3E3E;
+}
+.product-image{
+    width: 90%;
+    height: 90%;
+}
+.single-product-area{
+    height: 400px;
+    border-radius: 5%;
+}
+.product-card-footer{
+    background-color: white;
+    border: none;
+}
+.product-card{
+    border: none;
+    border-radius: 5%;
+}
+@media (max-width: 720px){
+ h2{
+     text-align: center;
+ }
+}
