@@ -72,18 +72,25 @@ p{
 
 
 /* Category Area styling*/
-.category-title{
-    
-    background-color: rgba(0, 0, 0, 0.5);
+.catagory-title{
+    z-index: 1;
 }
 .new-arrivals, .tuxedo{
     background-size: cover;
     text-align: center;
     height: 15em;
+    position: relative;
 }
 .new-arrivals{
     background-image: url("../images/products/new.jpg");
-    
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .tuxedo{
     background-image: url("../images/products/tuxedo.jpg");
@@ -99,15 +106,17 @@ p{
 .sweater, .treakking-shoes{
     text-align: center;
     height: 10em;
+    position: relative;
 }
 .watches, .casual-glasses, .t-shirt{
     text-align: center;
+    position: relative;
 }
 .watches{
     background-image: url("../images/products/watch.jpg");
 }
 .casual-glasses{
-    background-image: url("../images/products/glass.jpg");
+    background: url("../images/products/glass.jpg");
     background-size: cover;
 }
 .t-shirt{
