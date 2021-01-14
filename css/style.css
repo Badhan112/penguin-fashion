@@ -11,7 +11,9 @@ nav a{
     color: #363958;
     font-weight: 700;
 }
-
+.top-banner{
+    padding-top: 5em;
+}
 h1, h2{
     font-family: 'Bebas Neue', cursive;
 }
